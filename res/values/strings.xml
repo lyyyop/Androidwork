@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WhatToDo</string>
+    <string name="hello">Hello World, MyFinalHomeworkActivity!</string>
+    <string name="tvUid">账号：</string>
+    <string name="tvPwd">密码：</string>
+	<string name="btnLogin">登录</string>
+    <string name="btnCancel">取消</string>
+    <string name="btnChange">兑换</string>
+    <string name="btnDone">完成</string>
+    <string name="btnAbout">关于该app</string>
+    <string name="btnRefresh">刷新</string>
+    <string name="btnAdd">添加代办</string>
+    <string name="btnDelete">删除</string>
+    <string name="btnReg">没有账号，去注册</string>
+	<string name ="btnBack">返回</string>
+	<string name ="check">记住我</string>
+	<string name ="tabtitle1">首页</string>
+	<string name ="tabtitle2">代办</string>
+	<string name ="tabtitle4">我的</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LinearLayout1"
+    android:orientation="vertical" >
+     <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            style="@style/text"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+            <TextView
+                android:id="@+id/todo"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="right" 
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent" >
+            <Button
+                android:id="@+id/btnDone"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDone" />
+            <Button
+                android:id="@+id/btnDelete"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDelete" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
